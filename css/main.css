@@ -1,0 +1,342 @@
+.container {
+  max-width: 1420px;
+  padding: 10px;
+  margin: 0px auto;
+}
+
+.header__nav {
+  padding-top: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.header__nav .logo {
+  margin: 0px auto;
+}
+.header__nav .menu {
+  display: flex;
+  align-items: center;
+}
+.header__nav .menu .menu__item {
+  margin-right: 35px;
+}
+.header__nav .menu .menu__item .item__link {
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 1.7000000477px;
+  text-align: center;
+  color: black;
+  text-transform: uppercase;
+  position: relative;
+}
+.header__nav .menu .menu__item .item__link .cart__number {
+  position: absolute;
+  top: -100%;
+  left: 50%;
+}
+.header__nav .menu .menu__item:last-child {
+  margin-right: 0;
+}
+
+.btns {
+  display: flex;
+}
+.btns .btn {
+  margin-left: 25px;
+  margin-right: 25px;
+  padding: 17px 34px;
+  background: white;
+  border: none;
+}
+.btns .btn .btn__link {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 2px;
+  text-align: center;
+  color: black;
+  text-transform: uppercase;
+}
+.btns .btn--black {
+  background: #212A2F;
+}
+.btns .btn--black .btn__link {
+  color: white;
+}
+.btns .btn:last-child {
+  margin-right: 0px;
+}
+
+.offer {
+  background-image: url(/images/bg.png);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.offer .offer__inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.offer .offer__inner .title {
+  margin-top: 320px;
+  font-family: Roboto;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 63px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: white;
+  margin-bottom: 10px;
+}
+.offer .offer__inner .descr {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: white;
+  margin-bottom: 300px;
+}
+
+.section__title {
+  font-family: Roboto;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 42px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: black;
+  text-align: center;
+}
+
+.section__pretitle {
+  font-family: Roboto;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 42px;
+  letter-spacing: 0.5px;
+  text-align: left;
+  color: black;
+}
+
+.products {
+  margin-top: 35px;
+  display: flex;
+  justify-content: space-between;
+}
+.products .products__item .item__title {
+  font-family: Roboto;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0.5px;
+  text-align: left;
+  color: black;
+  margin-top: 17px;
+  margin-bottom: 10px;
+}
+
+.favorits__inner {
+  padding-top: 120px;
+  padding-bottom: 150px;
+}
+.favorits__inner .menu .menu__submenu .submenu__nav {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+.favorits__inner .menu .menu__submenu .submenu__nav .item__link {
+  border-bottom: 1px solid black;
+  margin-right: 100px;
+  padding: 12px 24px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 2px;
+  text-align: center;
+  color: black;
+}
+.favorits__inner .menu .menu__submenu .submenu__nav .item__link:last-child {
+  margin-right: 0px;
+}
+.favorits__inner .menu .products {
+  margin-top: 35px;
+  display: flex;
+  justify-content: space-between;
+}
+.favorits__inner .menu .products .products__item .picture {
+  position: relative;
+}
+.favorits__inner .menu .products .products__item .picture .btns {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: 40%;
+  left: 5%;
+  opacity: 0;
+  transition: 0.5s;
+}
+.favorits__inner .menu .products .products__item .picture .btns .btn {
+  width: 300px;
+  margin-bottom: 15px;
+}
+.favorits__inner .menu .products .products__item .item__title {
+  font-family: Roboto;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0.5px;
+  text-align: left;
+  color: black;
+  margin-top: 17px;
+  margin-bottom: 10px;
+}
+.favorits__inner .menu .products .products__item .item__descr {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.400000006px;
+  text-align: left;
+  color: black;
+  display: flex;
+  align-items: center;
+}
+.favorits__inner .menu .products .products__item:hover .btns {
+  display: block;
+  opacity: 1;
+}
+
+.picture {
+  width: 100%;
+}
+
+.market__inner {
+  padding-top: 50px;
+  padding-bottom: 120px;
+}
+.market__inner .section__title {
+  margin-bottom: 20px;
+}
+.market__inner .section__descr {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: black;
+  margin-bottom: 30px;
+}
+.market__inner .btns {
+  display: flex;
+  justify-content: center;
+  margin: 0px auto;
+  margin-bottom: 120px;
+}
+.market__inner .btns .btn {
+  min-width: 180px;
+}
+
+.footer {
+  background: #212A2F;
+  padding-top: 70px;
+  padding-bottom: 90px;
+}
+.footer .forms {
+  margin-bottom: 90px;
+}
+.footer .forms .form__title {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0.5px;
+  text-align: left;
+  color: white;
+}
+.footer .forms .form-text {
+  background: #4D5559;
+  min-width: 300px;
+  min-height: 50px;
+}
+.footer .forms .form-submit {
+  background: #4D5559;
+  min-width: 130px;
+  min-height: 60px;
+}
+.footer .footer__nav {
+  display: flex;
+}
+.footer .footer__nav .footer__menu {
+  display: flex;
+  flex-direction: column;
+  margin-right: 170px;
+}
+.footer .footer__nav .footer__menu .item__text {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 2px;
+  text-align: left;
+  margin-bottom: 15px;
+  color: white;
+}
+.footer .footer__nav .footer__menu .item__text .item__link {
+  color: white;
+}
+.footer .footer__nav .footer__menu .item-title {
+  text-transform: uppercase;
+}
+.footer .footer__nav .nav__text .text__title {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 2px;
+  text-align: left;
+  color: white;
+  margin-bottom: 20px;
+}
+.footer .footer__nav .nav__text .text__descr {
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0.5px;
+  text-align: left;
+  color: white;
+  max-width: 300px;
+  margin-bottom: 15px;
+}
+.footer .footer__nav .nav__text .socials__menu {
+  display: flex;
+}
+.footer .footer__nav .nav__text .socials__menu .menu__item {
+  margin-right: 20px;
+}
+.footer .footer__nav .flags {
+  display: flex;
+}
+.footer .footer__nav .flags .flag {
+  margin-right: 25px;
+  max-width: 37px;
+  max-height: 22px;
+}
+.footer .footer__nav-2nd {
+  margin-top: 85px;
+  justify-content: space-between;
+}
+.footer .rights {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  color: white;
+}/*# sourceMappingURL=main.css.map */
