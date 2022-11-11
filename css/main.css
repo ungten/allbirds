@@ -70,7 +70,7 @@
 }
 
 .offer {
-  background-image: url(/images/bg5.png);
+  background-image: url(../images/bg5.png);
   height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
